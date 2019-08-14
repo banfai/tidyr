@@ -67,8 +67,8 @@ values in \code{data} were created by its structure.}
 \lifecycle{maturing}
 
 \code{pivot_longer()} "lengthens" data, increasing the number of rows and
-decreasing the number of columns. The inverse transformation. in
-\code{\link[=pivot_wider]{pivot_wider()}}
+decreasing the number of columns. The inverse transformation is
+\code{\link[=pivot_wider]{pivot_wider()}}.
 
 Learn more in \code{vignette("pivot")}.
 }
