@@ -44,7 +44,7 @@ test_that("can drop missing values", {
   expect_equal(pv$value, c(1, 2))
 })
 
-test_that("can handle missing values", {
+test_that("can handle missing levels in names_to", {
   df <- tribble(
     ~id, ~x_1, ~x_2, ~y_2,
     "A",    1,    2,  "a",
